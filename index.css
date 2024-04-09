@@ -1,0 +1,87 @@
+section{
+    border: 3px solid black;
+    margin: 0px;
+    
+}
+.container{
+    margin: 10px 50px 50px 50px;
+    background:wheat;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+}
+
+h1{
+    margin: 2rem;
+    color:brown;
+    /* text-shadow:2; */
+}
+
+div button{
+    list-style: none;
+    /* margin: 2rem; */
+    position: relative;
+    /* border: solid black; */
+    margin-top: 40px;
+    margin-right: 20px;
+    /* border-radius: 50px; */
+    background: linear-gradient(to right,#DFA3FF,#ff29c2);
+    width: 110px;
+    height: 40px;
+    a{
+        text-decoration: none;
+        color: white;
+        font-weight: 900;
+    }
+}
+nav{
+    background: whitesmoke;
+}
+nav ul{
+    list-style: none;
+}
+nav ul li{
+    display: inline-block;
+    margin: 5px;
+    color: black;
+    font-weight:bolder;
+}
+.values{
+    display:flex;
+    flex-wrap: wrap;
+    column-gap: 10px;
+    row-gap: 10px;
+    margin-left:1.7rem;
+}
+.box{
+    /* border: 1px solid black; */
+    height: 310px;
+    width: 250px;
+    /* margin-left:4.5rem; */
+    background-color: white;
+    
+}
+
+.box img{
+    height: 200px;
+    width: 200px;
+    padding-left:20px;
+}
+.box h3{
+    padding-left:40px;
+    opacity:0.4;
+}
+.bug{
+    color: red; 
+    padding-left:20px;
+    margin-right: 10px;
+}
+
+.icon-1{
+    padding-left:150px;
+    position: relative;
+    top: -38px;
+    left:40px;
+}
+
